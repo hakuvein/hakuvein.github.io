@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    section {
+        @apply block px-56 py-16
+        scroll-m-2;
+    }
+    h1 {
+        @apply font-bold text-4xl my-5;
+    }
+    h2 {
+        @apply font-semibold text-3xl my-4;
+    }
+    h3 {
+        @apply font-semibold text-2xl my-3;
+    }
+    h4 {
+        @apply font-medium text-xl my-2;
+    }
+    h5 {
+        @apply font-medium text-lg my-1;
+    }
+    p {
+        @apply text-base;
+    }
+}

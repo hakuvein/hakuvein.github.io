@@ -17,8 +17,12 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@fontsource/josefin-sans": "^4.5.12",
+    "@fontsource/play": "^4.5.12",
+    "@fontsource/plus-jakarta-sans": "^4.5.11",
     "autoprefixer": "^10.4.14",
     "gatsby": "^5.9.1",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-image": "^3.10.0",
     "gatsby-plugin-manifest": "^5.10.0",
     "gatsby-plugin-postcss": "^6.10.0",
