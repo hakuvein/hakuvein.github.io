@@ -7,7 +7,7 @@
         @apply scroll-smooth;
     }
     section {
-        @apply block px-56 py-16
+        @apply block px-10 py-16
         scroll-m-2;
     }
     h1 {
@@ -20,12 +20,12 @@
         @apply font-semibold text-2xl my-3;
     }
     h4 {
-        @apply font-medium text-xl my-2;
+        @apply font-medium text-xl my-3;
     }
     h5 {
-        @apply font-medium text-lg my-1;
+        @apply font-medium text-lg my-3;
     }
     p {
-        @apply text-base;
+        @apply text-base my-2;
     }
 }
